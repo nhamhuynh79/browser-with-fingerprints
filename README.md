@@ -8,7 +8,7 @@ This package is the basis for other plugins and doesn't allow you to automate br
 
 **Warning:** plugin is still in beta stage, it means that bugs may happen, including critical.
 
-Current supported engine version - **137.0.7151.56**.
+Current supported engine version - **138.0.7204.50**.
 
 **IMPORTANT NOTE:** plugin only work on **Windows** operating system, it cannot be installed and used on **Linux**, **macOS** and other systems!
 
@@ -25,7 +25,7 @@ Let's look at a small example of **WebGL** property substitution.
 In the screenshot below, the left column shows the values from the regular browser, and the right column shows the values substituted using ready-made fingerprints.
 This result cannot be achieved using only the replacement of various browser properties via **JavaScript**, that's what this plugin and service is for:
 
-![WebGL](https://github.com/CheshireCaat/browser-with-fingerprints/raw/master/assets/webgl.jpg)
+![WebGL](https://github.com/bablosoft/browser-with-fingerprints/raw/master/assets/webgl.jpg)
 
 You can learn more by following [this](https://fp.bablosoft.com/#capabilities) link.
 
@@ -47,9 +47,9 @@ Please note that according to the [architecture](#architecture) section, this pl
 
 You can use this package directly to launch browsers and write your own plugins. But it's much better to use ready-made plugins for popular automation frameworks:
 
-- Plugin for **selenium** - [selenium-with-fingerprints](https://github.com/CheshireCaat/selenium-with-fingerprints)
-- Plugin for **puppeteer** - [puppeteer-with-fingerprints](https://github.com/CheshireCaat/puppeteer-with-fingerprints)
-- Plugin for **playwright** - [playwright-with-fingerprints](https://github.com/CheshireCaat/playwright-with-fingerprints)
+- Plugin for **selenium** - [selenium-with-fingerprints](https://github.com/bablosoft/selenium-with-fingerprints)
+- Plugin for **puppeteer** - [puppeteer-with-fingerprints](https://github.com/bablosoft/puppeteer-with-fingerprints)
+- Plugin for **playwright** - [playwright-with-fingerprints](https://github.com/bablosoft/playwright-with-fingerprints)
 
 These plugins are already configured to integrate with each specific library, and have a convenient **API** to work with. They aren't a complete replacement for automation frameworks, but only extend their functionality.
 
@@ -463,7 +463,7 @@ It will be used automatically when working with this package.
 
 The plugin architecture can be summarized as the following diagram:
 
-![Architecture](https://github.com/CheshireCaat/browser-with-fingerprints/raw/master/assets/plugin.jpg)
+![Architecture](https://github.com/bablosoft/browser-with-fingerprints/raw/master/assets/plugin.jpg)
 
 All packages can only work with the **Chrome** browser, which comes bundled with the libraries and loads automatically.
 The path to the executable file is defined on the plugin side and cannot be changed.
@@ -487,7 +487,7 @@ It also supports fingerprint substitution, has simple and powerful multithreadin
 
 ## Troubleshooting
 
-If you encounter any issue or bug, please use the [issues](https://github.com/CheshireCaat/browser-with-fingerprints/issues) section of the repository.
+If you encounter any issue or bug, please use the [issues](https://github.com/bablosoft/browser-with-fingerprints/issues) section of the repository.
 
 Please describe the problem in as much detail as possible when creating tickets - indicate the sequence of actions (steps) to repeat the problem, error output, and so on.
 
@@ -531,4 +531,4 @@ You can define it in any way convenient for you, but by default variables are re
 
 ## License
 
-Copyright © 2025, [CheshireCaat](https://github.com/CheshireCaat). Released under the [MIT](LICENSE.md) license.
+Copyright © 2025, [bablosoft](https://github.com/bablosoft). Released under the [MIT](LICENSE.md) license.

@@ -17,7 +17,7 @@ class MissingKeyError extends PluginError {
     super(dedent`
       ${message}
       Due to the latest updates, it is necessary to specify the key not only when receiving it, but also when applying it.
-      To solve the problem, use the documentation at the link - https://github.com/CheshireCaat/browser-with-fingerprints#common-problems.
+      To solve the problem, use the documentation at the link - https://github.com/bablosoft/browser-with-fingerprints#common-problems.
     `);
   }
 }
@@ -38,7 +38,7 @@ class EngineTimeoutError extends PluginError {
     super(dedent`
       ${message}
       You can change the timeout using the "setEngineTimeout" method - it sets a time limit for fetching engine files.
-      For more info you can use the documentation at the link - https://github.com/CheshireCaat/browser-with-fingerprints#common-problems.
+      For more info you can use the documentation at the link - https://github.com/bablosoft/browser-with-fingerprints#common-problems.
     `);
   }
 }
@@ -48,7 +48,7 @@ class RequestTimeoutError extends PluginError {
     super(dedent`
       ${message}
       You can change the timeout using the "setRequestTimeout" method - it sets a time limit for executing engine requests.
-      For more info you can use the documentation at the link - https://github.com/CheshireCaat/browser-with-fingerprints#common-problems.
+      For more info you can use the documentation at the link - https://github.com/bablosoft/browser-with-fingerprints#common-problems.
     `);
   }
 }

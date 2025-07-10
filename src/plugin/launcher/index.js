@@ -20,7 +20,7 @@ module.exports = {
 
       function onLine(line) {
         const match = line.match(/DevTools listening on (.*)/);
-        if (match) clearTimeout(timeoutId), resolve(match[1]);
+        if (match) (clearTimeout(timeoutId), resolve(match[1]));
       }
 
       function onTimeout() {

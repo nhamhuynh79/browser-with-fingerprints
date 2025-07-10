@@ -1,17 +1,17 @@
 {
   "name": "browser-with-fingerprints",
   "description": "A plugin that improves the stealth of automation libraries using fingerprints",
-  "homepage": "https://github.com/CheshireCaat/browser-with-fingerprints#readme",
+  "homepage": "https://github.com/bablosoft/browser-with-fingerprints#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CheshireCaat/browser-with-fingerprints.git"
+    "url": "git+https://github.com/bablosoft/browser-with-fingerprints.git"
   },
-  "author": "CheshireCaat",
-  "version": "2.3.2",
+  "author": "bablosoft",
+  "version": "2.3.3",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CheshireCaat/browser-with-fingerprints/issues",
-    "email": "cheshirecat902@gmail.com"
+    "url": "https://github.com/bablosoft/browser-with-fingerprints/issues",
+    "email": "mail.to.twaego@gmail.com"
   },
   "type": "commonjs",
   "main": "./src/index.js",
@@ -79,10 +79,10 @@
   },
   "devDependencies": {
     "@cheshire-caat/prettier-config": "^1.0.0",
-    "dotenv": "^16.5.0",
-    "mocha": "^11.6.0",
+    "dotenv": "^17.2.0",
+    "mocha": "^11.7.1",
     "napi-macros": "^2.2.2",
-    "prettier": "3.5.3"
+    "prettier": "3.6.2"
   },
   "prettier": "@cheshire-caat/prettier-config"
 }

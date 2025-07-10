@@ -70,7 +70,7 @@ export declare class FingerprintPlugin {
    * You can chain method calls to set up a proxy, profile and fingerprint.
    * As a result, they return the current instance of the plugin, so you can call them in any order, and launch the browser immediately after application.
    *
-   * See the [documentation](https://github.com/CheshireCaat/browser-with-fingerprints#fingerprint-usage) for more details.
+   * See the [documentation](https://github.com/bablosoft/browser-with-fingerprints#fingerprint-usage) for more details.
    *
    * @remarks
    * **NOTE**: This method performs the fingerprint setup once. After launching the browser, the data cannot be changed.
@@ -100,7 +100,7 @@ export declare class FingerprintPlugin {
    * You can chain method calls to set up a proxy, profile and fingerprint.
    * As a result, they return the current instance of the plugin, so you can call them in any order, and launch the browser immediately after application.
    *
-   * See the [documentation](https://github.com/CheshireCaat/browser-with-fingerprints#profile-usage) for more details.
+   * See the [documentation](https://github.com/bablosoft/browser-with-fingerprints#profile-usage) for more details.
    *
    * @remarks
    * **NOTE**: This method performs the profile setup once. After launching the browser, the data cannot be changed.
@@ -130,7 +130,7 @@ export declare class FingerprintPlugin {
    * You can chain method calls to set up a proxy, profile and fingerprint.
    * As a result, they return the current instance of the plugin, so you can call them in any order, and launch the browser immediately after application.
    *
-   * See the [documentation](https://github.com/CheshireCaat/browser-with-fingerprints#proxy-usage) for more details.
+   * See the [documentation](https://github.com/bablosoft/browser-with-fingerprints#proxy-usage) for more details.
    *
    * @remarks
    * **NOTE**: This method performs the proxy setup once. After launching the browser, the data cannot be changed.
@@ -252,7 +252,7 @@ export declare class FingerprintPlugin {
   /**
    * Set the timeout that the plugin uses when executing requests (pass `0` to disable it).
    *
-   * You can read a bit more about these settings [here](https://github.com/CheshireCaat/browser-with-fingerprints#configuring-plugin).
+   * You can read a bit more about these settings [here](https://github.com/bablosoft/browser-with-fingerprints#configuring-plugin).
    *
    * @remarks
    * **NOTE**: This action changes the configuration for all instances of the plugin, that is, it works globally in the context of the current process.
@@ -269,7 +269,7 @@ export declare class FingerprintPlugin {
   /**
    * Set the timeout that the plugin uses when fetching engine (pass `0` to disable it).
    *
-   * You can read a bit more about these settings [here](https://github.com/CheshireCaat/browser-with-fingerprints#configuring-plugin).
+   * You can read a bit more about these settings [here](https://github.com/bablosoft/browser-with-fingerprints#configuring-plugin).
    *
    * @remarks
    * **NOTE**: This action changes the configuration for all instances of the plugin, that is, it works globally in the context of the current process.
@@ -286,7 +286,7 @@ export declare class FingerprintPlugin {
   /**
    * Set the working folder that the plugin uses to work with the engine.
    *
-   * You can read a bit more about these settings [here](https://github.com/CheshireCaat/browser-with-fingerprints#configuring-plugin).
+   * You can read a bit more about these settings [here](https://github.com/bablosoft/browser-with-fingerprints#configuring-plugin).
    *
    * @remarks
    * **NOTE**: This action changes the configuration for all instances of the plugin, that is, it works globally in the context of the current process.

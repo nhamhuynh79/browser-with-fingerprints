@@ -1,6 +1,7 @@
 node_modules
 test/browser
 prebuilds
+*.preview
 .vscode
 *.env
 *.gyp

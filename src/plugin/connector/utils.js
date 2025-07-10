@@ -17,6 +17,6 @@ const notify = once(() => {
 
 exports.notify = (premium) => {
   if (!premium && process.env.NODE_ENV !== 'test') {
-    return notify(), setTimeout(print, 20000, 'Fetching a fingerprint can take a long time in the free version.');
+    return (notify(), setTimeout(print, 20000, 'Fetching a fingerprint can take a long time in the free version.'));
   }
 };

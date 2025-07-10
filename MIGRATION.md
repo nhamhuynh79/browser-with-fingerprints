@@ -16,12 +16,10 @@ With the recent updates to the engine and plugin (**1.6.2** and later for the pl
 To adapt to these changes, follow these steps:
 
 1. **Set the service key globally**:
-
    - Use the `setServiceKey` method to set the service key for the entire plugin.
    - Pass your service key as a parameter, or an empty string if using the free version.
 
 2. **Modify method calls**:
-
    - You should remove the key from the `fetch` method by passing options as the first parameter.
    - Similarly, you should remove the service `key` option from the `launch` and `spawn` plugin methods.
 
