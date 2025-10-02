@@ -176,9 +176,9 @@
       safeElementSize: false,
       useFontPack: true,
       safeBattery: true,
-      safeCanvas: true,
-      safeAudio: true,
-      safeWebGL: true,
+      safeCanvas: false,
+      safeAudio: false,
+      safeWebGL: false,
       },
       "setup.profile": {
       loadFingerprint: true,
